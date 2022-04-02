@@ -14,6 +14,7 @@
 	session_start(); 
 
 	$dbconn = db_connect();
+	//$dbconn=false;
 
 	$errors=array();
 	$view="";

@@ -38,7 +38,7 @@
 				<tr>
 				<?php
 					foreach ($_SESSION['mastermind']->colours as $color){ //echoing input buttons
-						echo '<td><button type="submit" name="pegChoice" value="'.$color.'" '.$buttonState.'/><img src="images/'.$color.'" width="50" height="50"/></td>';
+						echo '<td><button type="submit" name="pegChoice" value="'.$color.'"'.$buttonState.'/><img src="images/'.$color.'.png" width="50" height="50"/></td>';
 					}?>
 					<td><button type="submit" name="pegChoice" value="submit" style="height:60px;border:0.13em solid;color:blue;" <?php echo $buttonState?> />Submit</td>
 					<td><button type="submit" name="pegChoice" value="reset" style="height:60px;border:0.13em solid;color:red;" <?php echo $buttonState?>/>Reset</td>

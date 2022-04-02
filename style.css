@@ -1,18 +1,30 @@
 body {
     margin: 10px;
-    border: 1px solid gray;
+    border: 3px solid gray;
+    background-color: aquamarine;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 header, footer {
     clear: left;
     text-align: center;
-    margin:5px;
+    margin:0px;
+    background-color: bisque;
     border-bottom: 1px solid black;
+}
+
+header h1 {
+    background-color:bisque;
+    margin:0px;
+    padding:5px;
 }
 
 nav {
     float: left;
     margin: 0;
+    background-color: cornflowerblue;
 }
 
 nav ul {
@@ -21,14 +33,20 @@ nav ul {
     text-align: center;
 }
    
+a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
 nav ul a {
     text-decoration: none;
     display: block;
     padding: 5px;
     width: 6em;
     margin: 5px;
-    border:1px solid black;
+    border:3px solid black;
     background: black;
+    border-radius: 5px;
     color: white;
 }
 
