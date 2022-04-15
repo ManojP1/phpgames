@@ -1,4 +1,4 @@
-#phpgames 
+# phpgames 
 
 App containing a games website with 3 simple games. 
 Made using PHP, runs on Apache with postgresQL database to store user information and statistics.
